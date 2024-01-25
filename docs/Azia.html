@@ -31,6 +31,44 @@ body{
   width: 100%;
 }
 
+#Up-paw {
+  animation: move 2s infinite alternate
+}
+
+#Tongue {
+  animation: slobber 2s infinite alternate
+}
+
+#Tail {
+  animation: wag 2s infinite alternate
+}
+
+@keyframes wag {
+from { 
+  transform: 0
+  }
+to { 
+  transform: translateX(14px)
+  } 
+}
+
+@keyframes slobber {
+from { 
+  transform: 0
+  }
+to { 
+  transform: translateX(-6px)
+  } 
+}
+  
+@keyframes move {
+from { 
+  transform: translateY(0)
+  }
+to { 
+  transform: translateX(5px) translateY(-20px)
+  } 
+}
 
 header {
   background-color: #00000063;
@@ -128,8 +166,118 @@ header {
   </div>
 
   <div class="col-6 col-s-9">
-    <h1></h1>
-    <p></p>
+    <h1>Vodstvo</h1>
+    <p>Ázia je domovom niektorých najdlhších riek, najväčších jazier a najvýznamnejších riečnych systémov na svete. Tu sú niektoré z významných vodných útvarov v Ázii:</p>
+    <h1>Rieky:</h1>
+    <h2>Jang-c’-ťiang (Čína):</h2>
+    <p>Jang-c’-ťiang, známa aj ako Jang-c’-ťiang, je najdlhšou riekou v Ázii a tretí najdlhší riekou na svete. Preteká cez rôzne čínske provincie.</p>
+    <h2>Huang He (Čína):</h2>
+    <p>Huang He, alebo Žltá rieka, je ďalšou významnou čínskou riekou, známa svojimi sedimentmi a historickým významom.</p>
+    <h2>Mekong (viaceré krajiny vrátane Číny, Laosu, Kambodže, Vietnamu): </h2>
+    <p>Mekong je dôležitou riekou pre niekoľko juhovýchodných ázijskych krajín, preteká cez niekoľko národných hraníc.</p>
+    <h2>Ganga (India, Bangladéš): </h2>
+    <p>Ganga je posvätná rieka v hinduizme a jedným z najdôležitejších riečnych systémov v Indii.</p>
+    <h2>Júdska rieka (India):</h2>
+    <p>Júdska rieka je dôležitá rieka v južnej Indii, známa svojimi malými prítokmi a krásnymi scenériami.</p>
+    <h1>Jazerá:</h1>
+    <h2>Kaspické more (viaceré krajiny vrátane Ruska, Kazachstanu, Turkmenistanu, Iránu, Ázerbájdžanu): </h2>
+    <p>Kaspické more je najväčším jazerom na svete a patrí medzi prírodné hranice Ázie a Európy.</p>
+    <h2>Bajkalské jazero (Rusko):</h2>
+    <p>Bajkalské jazero je najhlbšie jazero na svete a obsahuje viac sladkej vody ako všetky Severoamerické veľké jazerá dohromady.</p>
+    <h1>Močiare:</h1>
+    <h2>Sundarbans (India, Bangladéš):</h2>
+    <p>Sundarbans sú rozsiahle močiare v deltovom regióne rieky Ganga, známe svojimi mokradami a mangrovovými porastmi.</p>
+    <h2>Tonlé Sap (Kambodža):</h2>
+    <p>Tonlé Sap je najväčším sladkovodným jazerom v juhovýchodnej Ázii a hrá kľúčovú úlohu v hospodárstve a ekológii Kambodže.</p>
+    <h1>Zátoky a Oceány:</h1>
+    <h2>Juhočínske more (viaceré krajiny vrátane Číny, Vietnamu, Filipín, Malajzie): </h2>
+    <p>Juhočínske more je oblastí týchto krajín v juhovýchodnej Ázii, ktorá zahŕňa viacero významných zátok a ostrovov.</p>
+    <h2>Arabské more (viaceré krajiny vrátane Saudskej Arábie, Iránu, Ománu): </h2>
+    <p>Arabské more obklopuje Arabský polostrov a spája sa s Indickým oceánom.</p>
+    <p>Ázia má bohaté a rozmanité vodstvo, ktoré zohráva kľúčovú úlohu v živote a kultúre obyvateľstva na celom kontinente.</p>
+    <h1>Mestá</h1>
+    <p>Ázia je domovom mnohých rozsiahlych a rozmanitých miest, ktoré zahrňujú moderné metropoly, historické centrá, náboženské svätynie a ekonomické srdcia. Tu sú niektoré z najväčších a najvýznamnejších miest v Ázii:</p>
+    <h2>Tokio, Japonsko:</h2>
+    <p>Japonská metropola, ktorá je jedným z najväčších svetových finančných a kultúrnych centier. Tokio je známe svojou modernou architektúrou, rušnými štvrťami a historickými chrámami.</p>
+    <h2>Šanghaj, Čína:</h2>
+    <p>Dynamické a rýchlo sa rozvíjajúce mesto v Číne, známe svojimi vysokými mrakodrapmi, modernými nákupnými štvrťami a historickým nábrežím Bund.</p>
+    <h2>Delhi, India: </h2>
+    <p>Hlavné mesto Indie, ktoré kombinuje historické pamiatky ako Červený pevnosť a Jama Masjid s modernými časťami ako Connaught Place.</p>
+    <h2>Mumbai, India:</h2>
+    <p>Ekonomická a filmová metropola Indie, známa ako "Mesto snov". Je domovom Bollywoodu a rozmanitej kultúrnej scény.</p>
+    <h2>Peking, Čína:</h2>
+    <p>Hlavné mesto Číny, s historickými pamiatkami ako Zakázané mesto a modernými symbolmi, vrátane Národného štadióna Peking (Olympijský štadión).</p>
+    <h2>Džakarta, Indonézia: </h2>
+    <p>Hlavné mesto Indonézie, ktoré je jedným z najľudnatejších miest sveta, s pestrou kultúrou a pulzujúcim mestským životom.</p>
+    <h2>Singapur: </h2>
+    <p>Mesto-štát a globálny finančný centrum, známe svojou modernou architektúrou, luxusnými nákupnými centrami a kultúrnymi štvrťami.</p>
+    <h2>Seoul, Južná Kórea:</h2>
+    <p>Moderná metropola, ktorá spája tradičné kórejské hodnoty s inováciami. Známa je svojimi technologickými štvrťami, historickými palácmi a rušnými trhmi.</p>
+    <h2>Bangkok, Thajsko: </h2>
+    <p>Thajská metropola so zlatými chrámami, pulzujúcimi trhmi, a rôznymi kultúrnymi atrakciami.</p>
+    <h2>Dubaj, Spojené arabské emiráty:</h2>
+    <p>Extravagantné mesto vystavané v púšti, známe svojimi luxusnými obchodnými štvrťami, umelými ostrovmi a vysokými mrakodrapmi.</p>
+    <p>Tieto mestá predstavujú iba malý zlomok z bohatej palety miest v Ázii, ktoré sú rôznorodé v kultúre, histórii a ekonomike.</p>
+
+    <h1>Pamiatky</h1>
+    <p>Ázia je domovom mnohých historických a kultúrnych pamiatok, ktoré svedčia o bohatej histórii a rozmanitosti regiónu. Tu sú niektoré z významných pamiatok v Ázii:</p>
+    <h2>Veľká čínska stena (Čína):</h2>
+    <p>Monumentálna obranná štruktúra, ktorá sa táhne cez čínske hory, je jednou z najznámejších pamiatok na svete.</p>
+    <h2>Tádž Mahal (India): </h2>
+    <p>Tádž Mahal v Ágry je symbol lásky a jedným z najkrajších architektonických diel na svete.</p>
+    <h2>Zakázané mesto (Čína): </h2>
+    <p>Historický palácový komplex v Pekingu, ktorý slúžil ako sídlo čínskych cisárov, teraz je múzeum.</p>
+    <h2>Angkor Wat (Kambodža): </h2>
+    <p>Monumentálny chrámový komplex v Kambodži, postavený v 12. storočí, je najväčším náboženským pamätníkom na svete.</p>
+    <h2>Himeji Castle (Japonsko): </h2>
+    <p>Himeji Castle v Japonsku je najstarší a najzachovalejší zachovaný japonský hrad.</p>
+    <h2>Petra (Jordánsko): </h2>
+    <p>Staroveké mesto vytesané do červeného piesčitého kamene, známe svojou skalnou štruktúrou a archeologickým významom.</p>
+    <h2>Borobudur (Indonézia): </h2>
+    <p> Budhistický chrámový komplex v Indonézii, postavený v 9. storočí, je najväčší budhistický pamätník na svete.</p>
+    <h2>Kyoto Imperial Palace (Japonsko):</h2>
+    <p>Historický palác v Kyote, ktorý slúžil ako sídlo japonských cisárov.</p>
+    <h2>Ellora a Ajanta Caves (India): </h2>
+    <p>Komplexy jaskýň s hinduistickými a buddhistickými náboženskými sochami a malbami.</p>
+    <h2>Halong Bay (Vietnam): </h2>
+    <p>Prírodný zázrak so stovkami vápencových ostrôv v Zálive Tonkin, známy pre svoju krásu a jedinečnú krajinu.</p>
+    <h2>Góbijské púšte (Mongolsko a Čína):</h2>
+    <p>Rozsiahla púšť na pomedzí Mongolska a Číny, známa svojou rozmanitou krajinou a kultúrou nomádov.</p>
+    <p>Tieto pamiatky predstavujú len malý výber z bohatého kultúrneho dedičstva Ázie. Kontinent je plný ďalších fascinujúcich miest s historickým a estetickým významom.</p>
+
+    <h1>Jedlá</h1>
+    <p>Ázia ponúka širokú paletu tradičných jedál, ktoré sa líšia podľa krajiny, regiónu a kultúry. Každý región má svoje vlastné charakteristické ingrediencie a kulinárske techniky. Tu sú niektoré tradičné jedlá z rôznych častí Ázie:</p>
+    <h1>Čína:</h1>
+    <h2>Peking Duck (Pekingská kachna):</h2>
+    <p> Kachna, ktorá je pečená a servírovaná s tenkými plátkami, plackami, cibuľou a omáčkou.</p>
+    <h2>Dim Sum:</h2>
+    <p>Malé porcie jedál, často podávané v bambusových košíkoch, vrátane kúskov s cestom, rôznych náplní a omáčok.</p>
+    <h1>Japonsko:</h1>
+    <h2>Sushi: </h2>
+    <p>Kombinácia ryže, surových rýb a ďalších prísad, často podávaná s omáčkou sojou a zázvorom.</p>
+    <h2>Ramen:</h2>
+    <p>Polievka s rezancami a rôznymi prísadami, ako sú vajíčka, mäso a zelenina.</p>
+    <h1>India:</h1>
+    <h2>Curry:</h2>
+    <p>Rôznorodé jedlo s omáčkou z korenín, často podávané s ryžou alebo chlebom (naan).</p>
+    <h2>Biryani: </h2>
+    <p>Miešané jedlo z korenia, mäsa (väčšinou kurča alebo hovädzieho) a ryže.</p>
+    <h1>Thajsko:</h1>
+    <h2>Pad Thai: </h2>
+    <p> Kriedové rezance smažené s krevetami, kurčaťom alebo tofu, orechmi a zeleninou.</p>
+    <h2>Tom Yum:</h2>
+    <p>Kyslá polievka s krevetami, hubami, koriandrom a chilli.</p>
+    <h1>Vietnam:</h1>
+    <h2>Pho:</h2>
+    <p> Klasická polievka s rezancami, hovädzím mäsom, bylinkami a chilli.</p>
+    <h2>Bánh mì:</h2>
+    <p>Vietnamská bageta plnená mäsom, zeleninou a bylinkami.</p>
+    <h1>Kórea:</h1>
+    <h2>Kimchi: </h2>
+    <p>Kyslá zelenina, často kyslá kapusta, ktorá sa používa ako príloha alebo súčasť rôznych jedál.</p>
+    <h2>Bibimbap:</h2>
+    <p>Zmes ryže, zeleniny, mäsa, vajíčka a kimchi, často podávaná v horúcom kamennom hrnci.</p>
+    <p>Tieto jedlá predstavujú len malý výber z rozmanitej ázijskej kuchyne. V každej krajine a regióne Ázie existujú stovky ďalších tradičných jedál, ktoré odrážajú bohatú kultúrnu dedičinu a miestne prírodné zdroje. </p>
   </div>
 
   <div class="col-3 col-s-12">
@@ -146,7 +294,29 @@ header {
 </div>
 
 <div class="footer">
-  <p></p>
+  <svg width="553" height="495" viewBox="0 0 553 495" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="vector">
+    <path id="Vector" d="M490.938 48.7654C518.628 94.6054 499.148 173.835 501.008 240.995C502.868 308.155 526.018 363.145 513.018 408.055C500.018 452.965 450.758 487.805 401.208 493.375C351.658 498.945 302.118 475.375 234.808 465.685C167.498 455.995 82.3283 460.685 37.8083 422.765C-6.71172 384.845 -10.6317 304.585 19.3083 246.955C49.2483 189.325 113.098 154.055 167.818 113.055C222.538 72.0554 268.368 24.7854 328.518 7.43535C388.668 -9.91465 463.378 2.79535 490.938 48.7654Z" fill="#4FF8F8"/>
+    <path id="Vector_2" d="M397.638 330.875C397.548 335.505 384.908 428.805 384.908 428.805L370.338 439.635H421.258C421.258 439.635 430.938 394.845 464.198 361.965C466.098 356.965 437.548 334.775 437.548 334.775L397.638 330.875Z" fill="#FED385"/>
+    <g id="Up-paw">
+    <path id="Vector_3" d="M163.708 298.995C154.968 298.849 146.022 298.772 136.868 298.765C130.238 298.765 123.868 299.505 123.868 301.225C123.868 302.945 133.928 327.735 135.158 328.955C136.388 330.175 148.658 331.765 148.658 338.775C148.658 342.215 147.398 356.455 131.718 356.455C111.088 356.455 67.8983 285.845 67.8983 263.455C74.7683 260.755 131.228 249.675 131.228 249.675" fill="#FED385"/>
+    </g>
+    <path id="Vector_4" d="M260.618 304.315C452.618 323.145 507.498 385.535 507.498 423.775C507.498 426.915 492.348 437.265 492.348 439.635H548.188C549.188 436.635 552.188 410.635 552.188 380.635C552.188 288.405 468.118 192.635 450.188 192.635C444.188 192.635 426.788 198.635 373.188 198.635C96.0983 198.635 220.108 54.6353 118.188 54.6353C85.0683 54.6353 66.8983 97.4653 51.4383 97.4653C47.5083 97.4653 20.9983 92.8053 18.5383 92.8053C16.0783 92.8053 7.53827 96.4853 7.53827 104.585C7.53827 167.435 61.9583 170.825 85.1083 185.355C96.7283 192.645 124.108 239.115 131.258 249.635C141.168 265.635 246.468 429.485 246.468 429.485L231.468 439.635H294.268L260.618 304.315Z" fill="#FED385"/>
+    <path id="Vector_5" d="M124.018 81.7854C130.748 79.6954 168.558 78.0754 186.428 86.6554C186.428 122.655 177.048 171.785 146.758 168.565C120.538 165.775 106.848 123.545 124.018 81.7854Z" fill="#FFC55C"/>
+    <g id="Tongue">
+    <path id="Vector_6" d="M78.9283 139.755C80.5383 142.615 83.0283 147.145 87.1283 153.165" stroke="#171515" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="Vector_7" d="M59.7483 144.055C62.7483 149.545 86.6683 184.185 102.628 178.055C113.338 173.935 99.6283 141.215 93.4583 133.675C89.5983 135.735 70.5983 142.985 59.7483 144.055Z" fill="#FD8369"/>
+    </g>
+    <path id="Vector_8" d="M9.80829 125.195C21.0483 144.595 56.6483 153.665 96.8583 131.905" stroke="#3A3A3A" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+    <path id="Vector_9" d="M20.5783 97.4254C25.0242 97.4254 28.6283 95.8091 28.6283 93.8154C28.6283 91.8216 25.0242 90.2054 20.5783 90.2054C16.1324 90.2054 12.5283 91.8216 12.5283 93.8154C12.5283 95.8091 16.1324 97.4254 20.5783 97.4254Z" fill="#3A3A3A"/>
+    <path id="Vector_10" d="M88.1083 97.4154C90.345 97.4154 92.1583 93.9858 92.1583 89.7553C92.1583 85.5248 90.345 82.0954 88.1083 82.0954C85.8715 82.0954 84.0583 85.5248 84.0583 89.7553C84.0583 93.9858 85.8715 97.4154 88.1083 97.4154Z" fill="#3A3A3A"/>
+    <g id="Tail">
+    <path id="Vector_11" d="M476.388 222.325C505.118 222.325 537.638 173.755 537.638 149.885C537.638 100.775 492.878 82.7753 477.718 82.7753C443.718 82.7753 435.118 116.605 435.118 119.775C435.118 122.945 436.508 127.385 437.268 127.385C438.028 127.385 442.658 124.995 445.818 124.995C475.148 124.995 477.928 147.285 477.928 150.845C477.928 179.915 450.058 194.225 445.378 194.225C440.698 194.225 465.178 222.325 476.388 222.325Z" fill="#FED385"/>
+    </g>
+    <path id="Vector_12" d="M110.478 217.255C121.898 213.525 173.238 189.795 198.718 154.255" stroke="#D85656" stroke-width="7" stroke-miterlimit="10" stroke-linecap="round"/>
+    </g>
+    </svg>
+    
 </div>
 
 </body>
